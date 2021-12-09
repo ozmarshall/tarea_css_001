@@ -5,6 +5,9 @@ body {
     color: #fff;
     vertical-align: baseline;
     
+    
+    
+    
 }
 
 h1 {
@@ -14,6 +17,7 @@ h1 {
 p {
     font-size: 11px;
     padding-bottom: 25px;
+    line-height: 18px;
 }
 
 a {
@@ -23,18 +27,26 @@ a {
 
 
 
-
-
-
-
-
-
-
 h2 {
     font-size: 24px;
     padding-bottom: 25px;
     margin-top: 25px;
+
 }
+
+/*stycky footer*/
+
+.wrap {
+    display: flex;
+    flex-direction: column;
+    height: 100hv;
+}
+
+.stt {
+    flex-grow: 1;
+}
+
+
 
 
 
@@ -67,6 +79,11 @@ header li {
 
 
 
+
+
+
+
+
 /*MAIN*/
 main {
     color: black;
@@ -91,12 +108,17 @@ img {
 
 
 
+
+
+
+
 /*class nave*/
 .nave1 {
     /*border: grey 10px solid;*/
     
     padding-top: 30px;
     margin-left: 30px;
+    
 }
 .nave2 {
     /*border: grey 10px solid;*/
@@ -107,26 +129,22 @@ img {
 
 
 
-
-
-
-
 .nave1 li {
     padding-bottom: 25px;
     list-style: disc;
 }
 
 .nave1 li:nth-child(1){
-    color: red;
+    color: #FF0000;
 }
 .nave1 li:nth-child(2){
-    color: blue;
+    color: #1400FF;
 }
 .nave1 li:nth-child(3){
-    color: pink;
+    color: #D79B00;
 }
 .nave1 li:nth-child(4){
-    color: chocolate;
+    color: #CCCCCC;
 }
 
 .nave2 li {
@@ -135,16 +153,16 @@ img {
 }
 
 .nave2 li:nth-child(1){
-    color: #562;
+    color: #AE8800;
 }
 .nave2 li:nth-child(2){
-    color: blue;
+    color: #AE280B;
 }
 .nave2 li:nth-child(3){
-    color: black;
+    color: #060564;
 }
 .nave2 li:nth-child(4){
-    color: chocolate;
+    color: #637300;
 }
 
 
@@ -153,10 +171,16 @@ img {
 
 
 /*div*/
+.columna_1 {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
 textarea {
     resize: none;
 }
-
 
 
 
